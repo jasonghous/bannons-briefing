@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bannons Acquisition - Strategic Briefing</title>
+  <meta name="description" content="Strategic briefing on the acquisition of Desmond L Bannon & Sons - Liverpool beachhead opportunity">
+  <style>
+    :root {
+      --navy: #16324a;
+      --blue: #2f5d8a;
+      --light-blue: #eaf2fb;
+      --grey: #6b7280;
+      --border: #d7e0ea;
+      --text: #1f2937;
+      --accent: #c6922e;
+      --green-bg: #edf8f1;
+      --green-border: #c7e7d1;
+      --amber-bg: #fff7ea;
+      --amber-border: #ecd7af;
+      --red-bg: #fbefef;
+      --red-border: #e8c7c7;
+      --white: #ffffff;
+      --shadow: 0 10px 28px rgba(0,0,0,0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #dfe7ef;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+    }
+
+    .deck {
+      padding: 24px 0 40px;
+    }
+
+    .slide {
+      width: 1280px;
+      min-height: 720px;
+      margin: 0 auto 24px auto;
+      background: var(--white);
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: var(--shadow);
+    }
+
+    .top-bar {
+      height: 18px;
+      background: linear-gradient(90deg, var(--navy) 0%, var(--blue) 72%, var(--accent) 100%);
+    }
+
+    .slide-inner {
+      padding: 40px 54px 54px 54px;
+      min-height: calc(720px - 18px);
+      position: relative;
+    }
+
+    .kicker {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--blue);
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 12px 0;
+      font-size: 34px;
+      line-height: 1.15;
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      line-height: 1.4;
+      color: var(--grey);
+      max-width: 1080px;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      margin: 0 0 12px 0;
+      font-size: 22px;
+      line-height: 1.25;
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    h3 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      line-height: 1.3;
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 10px 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .lead-box {
+      background: var(--navy);
+      color: var(--white);
+      padding: 24px 28px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+    }
+
+    .lead-box p {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.35;
+      font-weight: 700;
+    }
+
+    .quote-box {
+      background: var(--light-blue);
+      border-left: 6px solid var(--blue);
+      padding: 18px 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .quote-box p {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.35;
+      font-weight: 700;
+      color: var(--navy);
+    }
+
+    .section-title {
+      margin: 4px 0 16px 0;
+      font-size: 20px;
+      line-height: 1.3;
+      font-weight: 700;
+      color: var(--navy);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 18px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .card {
+      background: #f9fbfd;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 18px 16px 18px;
+    }
+
+    .card.dark {
+      background: var(--light-blue);
+    }
+
+    .card.green {
+      background: var(--green-bg);
+      border-color: var(--green-border);
+    }
+
+    .card.amber {
+      background: var(--amber-bg);
+      border-color: var(--amber-border);
+    }
+
+    .card.red {
+      background: var(--red-bg);
+      border-color: var(--red-border);
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+      margin-top: 8px;
+    }
+
+    .step {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #fbfcfe;
+      padding: 16px;
+      min-height: 168px;
+    }
+
+    .step-number {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--navy);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .step h3 {
+      font-size: 17px;
+      margin-bottom: 8px;
+    }
+
+    .step p {
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .metric {
+      font-size: 32px;
+      line-height: 1.1;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+
+    .metric-label {
+      font-size: 14px;
+      line-height: 1.35;
+      color: var(--grey);
+    }
+
+    .small {
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--grey);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 18px;
+      font-size: 14px;
+    }
+
+    th {
+      background: var(--navy);
+      color: var(--white);
+      text-align: left;
+      padding: 12px 10px;
+      font-size: 13px;
+      line-height: 1.3;
+      font-weight: 700;
+      vertical-align: top;
+    }
+
+    td {
+      padding: 11px 10px;
+      border-top: 1px solid var(--border);
+      vertical-align: top;
+      line-height: 1.35;
+    }
+
+    tr:nth-child(even) td {
+      background: #fafbfd;
+    }
+
+    .footer {
+      position: absolute;
+      left: 54px;
+      right: 54px;
+      bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: var(--grey);
+    }
+
+    .footer-left {
+      max-width: 900px;
+    }
+
+    @media (max-width: 1320px) {
+      .slide {
+        width: 96%;
+        max-width: 1280px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .grid-2, .grid-3, .grid-4, .timeline {
+        grid-template-columns: 1fr;
+      }
+
+      .slide-inner {
+        padding: 30px 24px 44px 24px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .footer {
+        left: 24px;
+        right: 24px;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+      }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .deck { padding: 0; }
+      .slide {
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+        page-break-after: always;
+      }
+      .slide:last-child { page-break-after: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="deck">
+
+    <!-- Slide 1 -->
+    <section class="slide">
+      <div class="top-bar"></div>
+      <div class="slide-inner">
+        <div class="kicker">Confidential, strategic briefing</div>
+        <h1>Acquisition of Desmond L Bannon &amp; Sons</h1>
+        <div class="subtitle">
+          Liverpool beachhead opportunity within a wider celebration of life, at need, and shared bereavement infrastructure model.
+        </div>
+
+        <div class="lead-box">
+          <p>Bannons should be viewed not simply as a local funeral director acquisition, but as a potential anchor operating platform for a broader Liverpool based infrastructure proposition and the first live rollout base for the five standardised at need packages.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>Why Bannons</h3>
+            <p>Meaningful Liverpool volume, live at need operating capability, and a local base that fits the city where the wider concept is already being discussed.</p>
+          </div>
+          <div class="card">
+            <h3>Why Liverpool first</h3>
+            <p>A local beachhead can help secure pipeline, create proof of concept, and validate the model before any later move towards larger scale acquisition.</p>
+          </div>
+          <div class="card">
+            <h3>Why this matters</h3>
+            <p>It creates the operating spine needed to support a celebration of life centre, future white labelled infrastructure, and the first live operating base for the five package funeral offer intended for wider national use.</p>
+          </div>
+        </div>
+
+        <div class="section-title" style="margin-top: 28px;">What is actually being bought</div>
+        <div class="grid-2">
+          <div class="card dark">
+            <h3>Immediate operating capability</h3>
+            <ul>
+              <li>Existing at need case flow in Liverpool.</li>
+              <li>Operational team, local processes, and delivery capability.</li>
+              <li>Quicker route than building a new funeral operation from scratch.</li>
+            </ul>
+          </div>
+          <div class="card dark">
+            <h3>Strategic platform value</h3>
+            <ul>
+              <li>Anchor operator for the Liverpool concept.</li>
+              <li>Potential base user of a celebration of life centre.</li>
+              <li>Foundation for a wider infrastructure model serving both owned and third party activity.</li>
+              <li>Live operating base for the first five package product architecture.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="footer-left">Howard Hodgson, strategic note</div>
+          <div>Page 1 of 3</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2 -->
+    <section class="slide">
+      <div class="top-bar"></div>
+      <div class="slide-inner">
+        <div class="kicker">Liverpool first, then scale</div>
+        <h1>How Bannons fits the wider proposition</h1>
+
+        <div class="quote-box">
+          <p>If Liverpool works, the real prize is not one acquisition. It is proof of a replicable city based bereavement infrastructure model and a workable package architecture for wider rollout.</p>
+        </div>
+
+        <div class="grid-3" style="margin-bottom: 22px;">
+          <div class="card">
+            <h3>Celebration of life centre</h3>
+            <p>The wider Liverpool concept becomes stronger if it is anchored by a real in city operator from day one, rather than relying solely on future utilisation or external partners.</p>
+          </div>
+          <div class="card">
+            <h3>White label infrastructure</h3>
+            <p>Over time, the Liverpool site could evolve into shared infrastructure used by other funeral directors, creating a platform proposition rather than a single site business.</p>
+          </div>
+          <div class="card">
+            <h3>National package launch platform</h3>
+            <p>Bannons could also serve as the first live operating base for the five core at need packages, allowing pricing, fulfilment, margin and customer response to be tested in practice before wider rollout.</p>
+          </div>
+        </div>
+
+        <div class="section-title">The initial five package offer</div>
+        <div class="grid-3" style="margin-bottom: 22px;">
+          <div class="card dark">
+            <h3>Core package ladder</h3>
+            <ul>
+              <li>Local Premium Time Attended Service Package, £2,499</li>
+              <li>Local Close Family Committal Package, £1,999</li>
+              <li>Local Simple Committal Package, £1,449</li>
+            </ul>
+          </div>
+          <div class="card dark">
+            <h3>Low cost and traditional ends</h3>
+            <ul>
+              <li>Local Direct Cremation Package, Unattended Cremation Only, £1,399</li>
+              <li>Local Traditional Funeral Package, £3,499</li>
+            </ul>
+          </div>
+          <div class="card dark">
+            <h3>Why Bannons helps</h3>
+            <ul>
+              <li>Real case flow to test demand.</li>
+              <li>Real operational base to test fulfilment.</li>
+              <li>Real margin feedback before scale.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-title">Suggested strategic sequence</div>
+        <div class="timeline">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Acquire Bannons</h3>
+            <p>Create the Liverpool beachhead and secure an immediate operating platform.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Stabilise volume</h3>
+            <p>Protect case flow, retain service standards, and understand pipeline dynamics.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Launch five packages</h3>
+            <p>Use Bannons as the first live operating environment for the initial package architecture.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h3>Link to Liverpool hub</h3>
+            <p>Use the acquired business as anchor user of the wider celebration of life centre proposition.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">5</div>
+            <h3>Scale intelligently</h3>
+            <p>Only then consider larger opportunities, including Memoria's funeral division, or selective city by city rollout.</p>
+          </div>
+        </div>
+
+        <div class="grid-2" style="margin-top: 22px;">
+          <div class="card">
+            <h3>Strategic view on Memoria</h3>
+            <p>Memoria may have longer term relevance as a scale platform, but Bannons offers the more disciplined first move, proving the Liverpool model and initial package structure before going to the big boys.</p>
+          </div>
+          <div class="card">
+            <h3>Bottom line</h3>
+            <p>Bannons is worth serious exploration because it may unlock a much larger proposition, a Liverpool centred proof of concept for a new urban bereavement infrastructure model and the first live deployment of the five package funeral offer.</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="footer-left small">Figures intentionally light at this stage, detailed acquisition and operating assumptions available separately.</div>
+          <div>Page 2 of 3</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 3 -->
+    <section class="slide">
+      <div class="top-bar"></div>
+      <div class="slide-inner">
+        <div class="kicker">Bannons, volumes, balance sheet and security view</div>
+        <h1>What the filed accounts and security filings actually show</h1>
+
+        <div class="grid-4" style="margin-bottom: 20px;">
+          <div class="card amber">
+            <div class="metric">973</div>
+            <div class="metric-label">Peak cremation volume in 2023</div>
+          </div>
+          <div class="card red">
+            <div class="metric">655</div>
+            <div class="metric-label">2025 cremation volume, based on operational information discussed</div>
+          </div>
+          <div class="card red">
+            <div class="metric">£889k</div>
+            <div class="metric-label">Net assets at March 2024, down from £1.11m in 2023 and £1.31m in 2022</div>
+          </div>
+          <div class="card red">
+            <div class="metric">£2.6k</div>
+            <div class="metric-label">Cash at bank at March 2024, indicating very tight liquidity</div>
+          </div>
+        </div>
+
+        <div class="section-title">Five year view, volumes overlaid against key balance sheet indicators</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Cremation volume</th>
+              <th>Net assets / equity</th>
+              <th>Cash at bank</th>
+              <th>Current position</th>
+              <th>Employees</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2020</td>
+              <td>n/a</td>
+              <td>£948,910</td>
+              <td>£9,026</td>
+              <td>Net current assets £24,418</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>2021</td>
+              <td>859</td>
+              <td>£1,228,768</td>
+              <td>£396,750</td>
+              <td>Net current assets £141,042</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>918</td>
+              <td>£1,307,436</td>
+              <td>£259,325</td>
+              <td>Net current liabilities £125,049</td>
+              <td>33</td>
+            </tr>
+            <tr>
+              <td>2023</td>
+              <td>973</td>
+              <td>£1,110,759</td>
+              <td>£8,283</td>
+              <td>Net current assets £148,329</td>
+              <td>36</td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>774</td>
+              <td>£888,694</td>
+              <td>£2,569</td>
+              <td>Net current liabilities £627,218</td>
+              <td>31</td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>655</td>
+              <td>Not yet filed</td>
+              <td>Not yet filed</td>
+              <td>Not yet filed</td>
+              <td>Not yet filed</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Read across from the filings</h3>
+            <ul>
+              <li>The business appears to have been strongest on a balance sheet basis in 2021 and 2022, when equity exceeded £1.2m and cash was still meaningful.</li>
+              <li>By 2023 and 2024, liquidity had tightened sharply, with cash falling to £8.3k and then £2.6k.</li>
+              <li>Net assets fell from £1.31m in 2022 to £1.11m in 2023 and then £889k in 2024, a meaningful erosion of equity.</li>
+              <li>The March 2024 balance sheet shows net current liabilities of £627k, suggesting pressure on working capital and funding.</li>
+              <li>The company also has secured borrowing over key assets, including an earlier NatWest property charge and a 2023 MSIF debenture covering fixed and floating assets across the business.</li>
+            </ul>
+          </div>
+          <div class="card dark">
+            <h3>What matters strategically</h3>
+            <ul>
+              <li>This does not read like a collapsed business, it reads like a previously stronger operator that is becoming more balance sheet stretched.</li>
+              <li>Volumes peaked in 2023 and then dropped materially in 2024 and 2025, which broadly aligns with weakening equity and liquidity.</li>
+              <li>This is now clearly a diligence issue as well as a trading issue: the capital structure includes both historic property security and a later whole business debenture, so deal structure, lender consents, and security releases would need to be mapped carefully.</li>
+              <li>The asset base remains meaningful, but it is at least partly encumbered, so any acquisition case should be built around operational reset, package rollout potential, and platform value, not just historic trading strength or gross asset value.</li>
+              <li>Because full turnover and profit and loss are not publicly filed, this slide should be read as a balance sheet, security and momentum analysis, not a full earnings view.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="footer-left small">Based on the filed small company accounts for 2020 to 2024, the Companies House security filings, and the cremation volumes discussed for 2021 to 2025. Full turnover and profit and loss are not publicly available in the filed accounts.</div>
+          <div>Page 3 of 3</div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
